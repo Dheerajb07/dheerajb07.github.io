@@ -1,6 +1,6 @@
-
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -32,17 +32,12 @@
       animation: shine 2s linear infinite;
     }
     @keyframes shine {
-      0% {
-        background-position: 200% 0;
-      }
-      100% {
-        background-position: -200% 0;
-      }
+      0% { background-position: 200% 0; }
+      100% { background-position: -200% 0; }
     }
   </style>
 </head>
 <body class="bg-gray-50 text-gray-900">
-
   <header class="bg-white/80 backdrop-blur-md shadow-sm sticky top-0 z-50">
     <nav class="container mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex items-center justify-between h-16">
@@ -63,7 +58,7 @@
   </header>
 
   <main class="container mx-auto px-4 sm:px-6 lg:px-8 py-16">
-    <!-- Home / Landing -->
+    <!-- Home -->
     <section id="home" class="text-center mb-24">
       <h1 class="text-4xl md:text-6xl font-bold text-slate-700 font-display mb-2">Dheeraj Bhogisetty</h1>
       <h2 class="text-xl md:text-2xl text-slate-600 font-medium font-display mb-2">Robotics Software Engineer</h2>
@@ -88,14 +83,12 @@
       </div>
     </section>
 
-    <!-- About Me -->
+    <!-- About -->
     <section id="about" class="mb-24 max-w-3xl mx-auto">
       <h2 class="text-3xl font-bold text-center font-display text-slate-700 mb-6">About Me</h2>
       <p class="text-gray-700 text-lg leading-relaxed">
-        I'm a Robotics Software Engineer with a Master's in Robotics Engineering from WPI. I currently work at ChemGenes Corporation, where I build automation systems for lab processes — integrating hardware and writing the software that drives it.
-        <br/><br/>
-        I enjoy working close to the metal with C++, ROS2, and embedded systems to build reliable, efficient real-time systems. My interests lie in robotic manipulation, legged robots, optimal control, and reinforcement learning. I love to see my code come to life on a robot and wouldn’t mind getting my hands dirty to fix any hardware.
-        <br/><br/>
+        I'm a Robotics Software Engineer with a Master's in Robotics Engineering from WPI. I currently work at ChemGenes Corporation, where I build automation systems for lab processes — integrating hardware and writing the software that drives it.<br/><br/>
+        I enjoy working close to the metal with C++, ROS2, and embedded systems to build reliable, efficient real-time systems. My interests lie in robotic manipulation, legged robots, optimal control, and reinforcement learning. I love to see my code come to life on a robot and wouldn’t mind getting my hands dirty to fix any hardware.<br/><br/>
         Lately, I've been focused on improving my software development skills and experimenting with RL-based manipulation using the LeRobot SO-101 arm — exploring the world of “Physical AI.”
       </p>
     </section>
@@ -106,48 +99,26 @@
       <p class="text-center text-gray-500">Coming soon. Check back later for detailed write-ups on robotics, control, and RL experiments.</p>
     </section>
 
-    <!-- Experience -->
-    <section id="experience" class="mb-24">
-      <h2 class="text-3xl font-bold text-center font-display text-slate-700 mb-6">Work Experience</h2>
-      <p class="text-center text-gray-500">This section is under construction.</p>
-    </section>
+  <section id="experience" class="mb-24">
+    <h2 class="text-3xl font-bold text-center font-display text-slate-700 mb-6">The Road So Far</h2>
+    <div id="experience-timeline" class="relative max-w-5xl mx-auto">
+      <div class="absolute left-1/2 w-0.5 h-full bg-gray-300 hidden md:block"></div>
+    </div>
+  </section>
 
     <!-- Skills -->
     <section id="skills" class="mb-24">
       <h2 class="text-3xl font-bold text-center font-display text-slate-700 mb-6">Skills</h2>
-      <p class="text-center text-gray-500">Coming soon. C++, ROS2, embedded systems, and more.</p>
-    </section>
-
-    <!-- Education -->
-    <section id="education" class="mb-24">
-  <h2 class="text-3xl font-bold text-center font-display text-slate-700 mb-6">Education</h2>
-  <div class="max-w-3xl mx-auto space-y-6">
-    <div class="bg-white shadow-md rounded-lg p-6 border border-gray-200">
-      <h3 class="text-xl font-semibold text-slate-700">Master of Science in Robotics Engineering</h3>
-      <div class="flex items-center justify-between">
-        <div class="flex items-center gap-4">
-          <img src="/images/wpi_logo.png" alt="WPI Logo" class="w-10 h-10 object-contain" />
-          <p class="text-slate-600">Worcester Polytechnic Institute</p>
-        </div>
-        <p class="text-slate-500 text-sm">2022 – 2024</p>
+      <div class="max-w-3xl mx-auto text-center text-gray-600 text-lg">
+        <p class="mb-4">C++, Python, ROS2, Embedded Systems, Control Theory, State Estimation</p>
+        <p class="mb-4">Robotics Simulation (Gazebo, Isaac), Git, Linux, CAN, SPI, I2C</p>
+        <p>SolidWorks, MATLAB, Simulink, Numerical Optimization</p>
       </div>
-    </div>
-    <div class="bg-white shadow-md rounded-lg p-6 border border-gray-200">
-  <h3 class="text-xl font-semibold text-slate-700">Bachelor of Technology in Mechanical Engineering</h3>
-  <div class="flex items-center justify-between">
-    <div class="flex items-center gap-4">
-      <img src="/images/vnit_logo.png" alt="VNIT Logo" class="w-10 h-10 object-contain" />
-      <p class="text-slate-600">Visvesvaraya National Institute of Technology</p>
-    </div>
-    <p class="text-slate-500 text-sm">2016 – 2020</p>
-  </div>
-</div>
-    </div>
-</section>
+    </section>
 
     <!-- Contact -->
     <section id="contact" class="mb-24">
-      <h2 class="text-3xl font-bold text-center font-display text-slate-700 mb-6">Contact</h2>
+      <h2 class="text-3xl font-bold text-center font-display text-slate-700 mb-6">Contact Me</h2>
       <p class="text-center text-gray-600 mb-4">Feel free to reach out via email or connect with me online.</p>
       <div class="text-center space-x-6">
         <a href="mailto:dbhogisetty@outlook.com" class="text-slate-700 font-medium hover:underline">Email</a>
@@ -155,11 +126,122 @@
         <a href="https://www.linkedin.com/in/bhogisetty/" target="_blank" class="text-slate-700 font-medium hover:underline">LinkedIn</a>
       </div>
     </section>
-  </main>
 
-  <footer class="bg-gray-800 text-white py-6 text-center">
-    <p class="font-display">© 2025 Dheeraj Bhogisetty. All rights reserved.</p>
-  </footer>
+    <footer class="bg-gray-800 text-white py-6 text-center">
+      <p class="font-display">© 2025 Dheeraj Bhogisetty. All rights reserved.</p>
+    </footer>
 
+  <script>
+    const experienceTimeline = document.getElementById('experience-timeline');
+    const experienceData = [
+  {
+    year: '2024',
+    side: 'left',
+    color: 'slate',
+    items: [
+      {
+        title: 'Robotics Engineer',
+        company: 'ChemGenes Corporation',
+        description: 'Automating lab processes by building intelligent systems from scratch putting together software - ROS2, controls, path planning, that drives the hardware  - robot arms, sensors, end-effector tools.',
+        dates: 'July 2024 – Present',
+        location: 'Billerica, MA'
+      }
+    ]
+  },
+  {
+    year: '2024',
+    side: 'right',
+    color: 'slate',
+    items: [
+      {
+        title: 'Graduate Student Researcher - Legged Robotics',
+        company: 'ALMAS Lab, WPI',
+        description: 'Made a bipedal robot walk using TSID (Task-Space Inverse Dynamics) controller. The walking trajectories were generated using a LIPM (Linear Inverted Pendulum Model).',
+        dates: 'Jan 2024 – Apr 2024',
+        location: 'Worcester, MA'
+      }
+    ]
+  },
+  {
+    year: '2023',
+    side: 'left',
+    color: 'slate',
+    items: [
+      {
+        title: 'Robotics Intern',
+        company: 'MagLev Aero',
+        description: 'Implemented an EKF (Extended Kalman Filter) to estimate states of a novel electro-magnetic propulsion system on an embedded platform (TI C2000 f28379D). Also integrated sensors through SPI and CAN.',
+        dates: 'Sept 2023 – Dec 2023',
+        location: 'Boston, MA'
+      }
+    ]
+  },
+  {
+    year: '2022',
+    side: 'right',
+    color: 'slate',
+    items: [
+      {
+        title: 'Master of Science in Robotics Engineering',
+        company: 'Worcester Polytechnic Institute',
+        description: 'Focused on robotics software, control systems, and automation. Conducted research in legged robotics.',
+        dates: '2022 – 2024',
+        location: 'Worcester, MA'
+      }
+    ]
+  },
+  {
+    year: '2021',
+    side: 'left',
+    color: 'slate',
+    items: [
+      {
+        title: 'Mechanical Design Engineer',
+        company: 'Oceaneering International Services Ltd.',
+        description: 'Designed parts and assemblies for sub-sea systems in Solidworks. Drafted engineering drawings for prototyping and production. Performed verification and validation of designs for compliance with industry standards.',
+        dates: 'Jan 2021 – Jun 2022',
+        location: ''
+      }
+    ]
+  },
+  {
+    year: '2020',
+    side: 'right',
+    color: 'slate',
+    items: [
+      {
+        title: 'Bachelor of Technology in Mechanical Engineering',
+        company: 'Visvesvaraya National Institute of Technology',
+        description: 'Studied core mechanical engineering concepts and developed a strong foundation in design and analysis.',
+        dates: '2016 – 2020',
+        location: 'Nagpur, India'
+      }
+    ]
+  }
+].sort((a, b) => parseInt(b.year) - parseInt(a.year));
+
+    experienceData.forEach(event => {
+      const isLeft = event.side === 'left';
+      const container = document.createElement('div');
+      container.className = 'mb-8 flex justify-between items-center w-full';
+      if (!isLeft) container.classList.add('flex-row-reverse');
+
+      container.innerHTML = `
+        <div class="hidden md:flex ${isLeft ? 'justify-end pr-4' : 'justify-start pl-4'} w-5/12">
+          <span class="bg-slate-100 text-slate-700 text-sm font-semibold px-4 py-1.5 rounded-full shadow">${event.items[0].dates}</span>
+        </div>
+        <div class="z-20 w-4 h-4 bg-slate-500 rounded-full shadow"></div>
+        <div class="bg-white p-6 rounded-xl shadow-lg w-full md:w-5/12 border-l-4 md:border-l-0 ${isLeft ? 'md:border-l-4' : 'md:border-r-4'} border-${event.color}-500">
+          ${event.items.map(item => `
+            <h4 class="font-bold text-xl text-${event.color}-600 font-display mb-2">${item.title}</h4>
+            <p class="font-semibold text-gray-800">${item.company}</p>
+            <p class="text-sm text-gray-600 mb-2">${item.description}</p>
+            <p class="text-xs text-gray-500">${item.location}</p>
+          `).join('')}
+        </div>
+      `;
+      experienceTimeline.appendChild(container);
+    });
+  </script>
 </body>
 </html>
